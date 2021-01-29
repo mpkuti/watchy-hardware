@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Watchy)(type Legacy)(uri ${KIPRJMOD}/Watchy.lib)(options "")(descr ""))
+  (lib (name "Watchy-original")(type "Legacy")(uri "${KIPRJMOD}/Watchy.lib")(options "")(descr ""))
+  (lib (name "Watchy")(type "KiCad")(uri "${KIPRJMOD}/Watchy.kicad_sym")(options "")(descr ""))
 )
