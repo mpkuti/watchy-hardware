@@ -259,7 +259,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -279,7 +279,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12.007874015748031,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -293,7 +293,7 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 5.984251968503937
       }
     ],
     "meta": {
@@ -319,7 +319,28 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "Manufacturer",
+          "url": false,
+          "visible": true
+        },
+        {
+          "name": "Manufacturer Part Number",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Digikey Part Number",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Digikey Link",
+          "url": true,
+          "visible": false
+        }
+      ],
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
@@ -343,7 +364,7 @@
   },
   "sheets": [
     [
-      "b35aefa6-a5a7-4b8b-b365-091a57e92316",
+      "22e27063-8994-4274-be30-f8cfb2950d36",
       ""
     ]
   ],
